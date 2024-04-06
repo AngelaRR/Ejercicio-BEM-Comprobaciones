@@ -1,0 +1,248 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("/media/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: OpenSans;
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.header__logo{
+    width: 8rem;
+    height: 1.5rem;
+}
+
+.header__list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__elementoLista{   
+    padding: 1.2rem;
+}
+
+.header__link{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    border: 1px solid black;
+}
+
+.header__link--activo{
+    color: rgb(139, 165, 95);
+}
+
+
+.header__button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+    color: black;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.main__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0.8rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.main__picture {
+    width: 100%;
+    height: 100%;
+}
+
+.main__article1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.main__article2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.main__article3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.main__article4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.main__article5 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.main__article6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.main__article7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.main__article8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.main__article9 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.main__article10 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.main__article11 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.main__article12 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.main__article13 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.main__article14 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.main__article15 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.main__article16 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.main__article17 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.main__article18 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.main__article19 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.main__article20 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.main__article21 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    padding: 5rem 0 0 0;
+}
+
+.footer__texto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    font-size: 0.9rem;
+}
+
+.footer__logo {
+    width: 11rem;
+    height: 2rem;
+}
+
+.footer__copyright {
+    font-size: 0.8rem;
+    padding: 5rem 0 0 0;
+}
+
+.footer__copyright--span {
+    border: 1px solid black;
+}
